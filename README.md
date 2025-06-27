@@ -5,7 +5,6 @@
 ## ✅ 構成概要
 
 ```bash
-graph TD
   Dev[Developer]
   Dev -->|git push| GitLab[GitLab CI/CD]
   GitLab -->|Build & Deploy| GKE[GKE Cluster]
