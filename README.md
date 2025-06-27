@@ -4,7 +4,7 @@
 
 ## ✅ 構成概要
 
-```mermaid
+```bash
 graph TD
   Dev[Developer]
   Dev -->|git push| GitLab[GitLab CI/CD]
